@@ -48,7 +48,7 @@ public class Main {
 
 // opgave 1.7
         System.out.println("");
-        System.out.println("opgave 1.8");
+        System.out.println("opgave 1.7");
         double pi = 4*(1-1/3+1/5-1/7+1/9-1/11);
         System.out.println(pi);
         double pi2 = 4*(1.0-1.0/3+1.0/5-1.0/7+1.0/9-1.0/11);
@@ -57,7 +57,7 @@ public class Main {
         System.out.println(pi3);
         System.out.println("");
 // opgave 1.8
-        System.out.println("opgave 1.9");
+        System.out.println("opgave 1.8");
         double perimeter = 2*6.5*3.14159;
         double area = 6.5*6.5*3.14159;
         System.out.println(area);
@@ -81,6 +81,26 @@ public class Main {
 // opgave 1.11
         System.out.println("opgave 1.11");
         int birthPrYear = ((((365*24)*24)*60)*60)/7;
+        int deathPrYear = -((((365*24)*24)*60)*60)/12;
+        int immigrantsPrYear = ((((365*24)*24)*60)*60)/45;
+        System.out.println(deathPrYear);
+
+        int population = 312032486 + (birthPrYear+immigrantsPrYear+deathPrYear);
+        System.out.println(population + " people after first year");
+        int population5years = 312032486 + 5*(birthPrYear+immigrantsPrYear+deathPrYear);
+        System.out.println();
+        System.out.println(population5years + " people after 5 years");
+
+// opgave 1.12
+        System.out.println();
+        System.out.println("opgave 1.12");
+        double distancetoKm = 24*1.6;
+        double time2 = (100*60)+35;
+        double kmt = (distancetoKm/time2)*(60*60);
+        System.out.println(kmt + " km/t");
+        System.out.println();
+// opgave 1.13
+        System.out.println("Opgave 1.13");
 
     }
 }
