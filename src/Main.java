@@ -76,5 +76,11 @@ public class Main {
         double time = 60*50+30;
         double Mph = ((distance/1.6)/(time)*(60*60));
         System.out.println("Mp/h " + Mph);
+        System.out.println();
+
+// opgave 1.11
+        System.out.println("opgave 1.11");
+        int birthPrYear = ((((365*24)*24)*60)*60)/7;
+
     }
 }
